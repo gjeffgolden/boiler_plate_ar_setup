@@ -3,7 +3,7 @@ class CreateAlcohols < ActiveRecord::Migration[6.1]
     create_table :alcohols do |t|
       t.string :name
       t.string :color
-      t.integer :proof
+      t.integer :strength
     end
   end
 end

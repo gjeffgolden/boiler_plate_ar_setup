@@ -3,8 +3,6 @@ require 'pry'
 
 
 
-
-
 binding.pry
 
 
